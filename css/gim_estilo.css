@@ -1,3 +1,4 @@
+/*Estilo Matriz*/
 body {
     font-family:'Open Sans', sans-serif;
     font-size: 16px;
@@ -79,7 +80,7 @@ footer {
 .holder div img {
     width: 100%;
     max-height: 360px;
-    border: 30px solid transparent;
+    border: 20px solid transparent;
 }
 
 h2{
@@ -87,14 +88,15 @@ h2{
     font-weight: 400;
 }
 
+/*Estilo Contenido Home Inicio*/
 .bienvenidos{
     width: 75%;
     padding-right: 10px;
     box-sizing: border-box;
 }
 
-bienvenidos p{
-    font-size: 25px;
+.bienvenidos p{
+    font-size: 18px;
 }
 
 .testimonios{
@@ -109,27 +111,34 @@ bienvenidos p{
 .testimonio .cita{
     font-weight: bold;
     font-style: italic;
-    font-size: 22px;
+    font-size: 20px;
     display: block;
 }
 
 .testimonio .autor{
-    font-size: 10px;
+    font-size: 12px;
     text-align: center;
     display: block;
     margin: 12px 0;
 }
+/*Estilo Contenido Home Fin*/
 
+/*Estilo Contenido Nosotros Inicio*/
 
 .columnas{
     display: flex;
     justify-content: space-between;
 }
 
-.historia {
-    font-size: 12px;
+.historia h3{
+    font-size: 16px;
+    margin-bottom: 0;
+    font-weight: 700;
+    border: 5px transparent solid;
 }
-
+.historia p{
+    font-size: 15px;
+}
 .personas{
     display: flex;
     justify-content: space-between;
@@ -146,7 +155,8 @@ bienvenidos p{
 
 .persona img{
     border-radius: 50%;
-    max-width: 60%;
+    max-width: 100px;
+    max-height: 100px;
     box-shadow: 0 0 5px rgba(0,0,0,0.5);
 }
 
@@ -172,3 +182,4 @@ bienvenidos p{
     color: #666;
 }
 
+/*Estilo Contenido Nosotros Fin*/
