@@ -1,4 +1,4 @@
-/*Estilo Matriz*/
+/*Inicio Estilo Matriz*/
 body {
     font-family:'Open Sans', sans-serif;
     font-size: 16px;
@@ -87,8 +87,8 @@ h2{
     color: #2e64a1;
     font-weight: 400;
 }
-
-/*Estilo Contenido Home Inicio*/
+/*Fin Estilo Matriz*/
+/* Inicio Estilo Contenido Home */
 .bienvenidos{
     width: 75%;
     padding-right: 10px;
@@ -121,9 +121,9 @@ h2{
     display: block;
     margin: 12px 0;
 }
-/*Estilo Contenido Home Fin*/
+/*Fin Estilo Contenido Home */
 
-/*Estilo Contenido Nosotros Inicio*/
+/*Inicio Estilo Contenido Nosotros */
 
 .columnas{
     display: flex;
@@ -182,4 +182,4 @@ h2{
     color: #666;
 }
 
-/*Estilo Contenido Nosotros Fin*/
+/*Fin Estilo Contenido Nosotros */
