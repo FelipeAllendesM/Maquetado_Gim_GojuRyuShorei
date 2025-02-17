@@ -186,7 +186,8 @@ h2{
 
 /*Inicio Estilo Contenido Nosotros */
 .benef_titulo{
-
+    text-align: center;
+    border-bottom: 2px 2px;
 }
 
 .beneficio{
@@ -208,7 +209,16 @@ h2{
 
 .beneficio .info p{
     font-size: 14px;
+}
 
+.beneficio img{
+    border-radius: 13px;
+    display: block;
+    max-width: 225px;
+}
+
+.beneficio:nth-child(even) {
+    flex-direction: row-reverse;
 }
 /*Fin Estilo Contenido Nosotros */
 
