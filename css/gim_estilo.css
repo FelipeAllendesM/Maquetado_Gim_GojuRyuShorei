@@ -222,5 +222,24 @@ h2{
 }
 /*Fin Estilo Contenido Beneficios */
 
+/*Inicio Estilo Contenido Galeria */
+.galeria{
+    display: flex;
+    flex-wrap: wrap;  
+    justify-content:center; 
+    align-items: center;  
+}
+
+.galeria img{
+    /* width: 18%; */
+    max-width: 225px;
+    max-height: 225px;
+    border: 1px solid #ddd;
+    padding: 0.3em;
+    box-sizing: border-box;
+
+}
+/*Inicio Estilo Contenido Galeria */
+
 
 
